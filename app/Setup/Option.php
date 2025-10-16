@@ -54,10 +54,13 @@ class Option {
 		return apply_filters(
 			'maintainic_option_defaults',
 			[
-				'main_switch'   => true,
-				'site_title'    => esc_html__( 'Site under maintenance', 'maintainic' ),
-				'page_headline' => esc_html__( 'Under Maintenance', 'maintainic' ),
-				'page_content'  => esc_html__( 'We will be back soon.', 'maintainic' ),
+				'main_switch'      => true,
+				'site_title'       => esc_html__( 'Maintenance Mode', 'maintainic' ),
+				'page_headline'    => esc_html__( 'Website Under Maintenance', 'maintainic' ),
+				'page_content'     => esc_html__( 'We are currently updating our website. Please visit us again shortly.', 'maintainic' ),
+				'background_image' => '',
+				'background_color' => '#f5f5f5',
+				'text_color'       => '#333333',
 			]
 		);
 	}

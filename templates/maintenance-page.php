@@ -13,9 +13,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Get options.
-$site_title = Option::get( 'site_title' );
-$headline   = Option::get( 'page_headline' );
-$content    = Option::get( 'page_content' );
+$site_title       = Option::get( 'site_title' );
+$headline         = Option::get( 'page_headline' );
+$content          = Option::get( 'page_content' );
+$background_image = Option::get( 'background_image' );
+$background_color = Option::get( 'background_color' );
+$text_color       = Option::get( 'text_color' );
 
 ?>
 <!DOCTYPE html>
@@ -33,12 +36,18 @@ $content    = Option::get( 'page_content' );
 
 		body {
 			font-family: Arial, sans-serif;
-			background: #f5f5f5;
+			background: <?php echo esc_attr( $background_color ); ?>;
+			<?php if ( ! empty( $background_image ) ) : ?>
+			background-image: url('<?php echo esc_url( $background_image ); ?>');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			<?php endif; ?>
 			min-height: 100vh;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			color: #333;
+			color: <?php echo esc_attr( $text_color ); ?>;
 		}
 
 		.container {
@@ -54,14 +63,15 @@ $content    = Option::get( 'page_content' );
 		h1 {
 			font-size: 2rem;
 			font-weight: normal;
-			margin-bottom: 20px;
-			color: #333;
+			margin-bottom: 30px;
+			color: <?php echo esc_attr( $text_color ); ?>;
 		}
 
 		p {
 			font-size: 1rem;
 			line-height: 1.5;
-			color: #666;
+			color: <?php echo esc_attr( $text_color ); ?>;
+			opacity: 0.8;
 			margin-bottom: 20px;
 		}
 
