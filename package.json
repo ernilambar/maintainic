@@ -1,0 +1,47 @@
+{
+	"name": "maintainic",
+	"version": "1.0.0",
+	"description": "Maintenance plugin.",
+	"author": "Nilambar Sharma",
+	"license": "GPL-2.0-or-later",
+	"main_file": "maintainic.php",
+	"keywords": [
+		"wordpress",
+		"wordpress-plugin"
+	],
+	"homepage": "https://github.com/ernilambar/maintainic",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ernilambar/maintainic.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ernilambar/maintainic/issues"
+	},
+	"type": "module",
+	"browserslist": "> 1%, last 2 versions, not dead",
+	"packtor": {
+		"files": [
+			"**/*",
+			"!*.js",
+			"!easy-replace-in-files.json",
+			"!package.json",
+			"!*.lock",
+			"!*.md",
+			"!*.yaml",
+			"!languages/**/*",
+			"!src/**/*"
+		]
+	},
+	"devDependencies": {
+		"easy-replace-in-files": "^1.0.3",
+		"packtor": "^1.0.2",
+		"rimraf": "^6.0.1"
+	},
+	"scripts": {
+		"version": "easy-replace-in-files",
+		"vendor": "composer install --no-dev --no-scripts -o",
+		"ready": "pnpm run vendor",
+		"predeploy": "rimraf build deploy vendor && pnpm run ready",
+		"deploy": "packtor"
+	}
+}
