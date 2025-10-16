@@ -99,6 +99,39 @@ class Options {
 			]
 		);
 
+		// Field: background_image.
+		$obj->add_field(
+			'maintainic_settings',
+			[
+				'id'      => 'background_image',
+				'type'    => 'image',
+				'title'   => esc_html__( 'Background Image', 'maintainic' ),
+				'default' => Option::defaults( 'background_image' ),
+			]
+		);
+
+		// Field: background_color.
+		$obj->add_field(
+			'maintainic_settings',
+			[
+				'id'      => 'background_color',
+				'type'    => 'color',
+				'title'   => esc_html__( 'Background Color', 'maintainic' ),
+				'default' => Option::defaults( 'background_color' ),
+			]
+		);
+
+		// Field: text_color.
+		$obj->add_field(
+			'maintainic_settings',
+			[
+				'id'      => 'text_color',
+				'type'    => 'color',
+				'title'   => esc_html__( 'Text Color', 'maintainic' ),
+				'default' => Option::defaults( 'text_color' ),
+			]
+		);
+
 		$obj->run();
 	}
 }
