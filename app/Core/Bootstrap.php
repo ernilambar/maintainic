@@ -28,6 +28,7 @@ class Bootstrap {
 		add_filter( 'plugin_action_links_' . MAINTAINIC_BASE_FILENAME, [ $this, 'customize_action_links' ] );
 
 		new Options();
+		new Maintenance();
 	}
 
 	/**
