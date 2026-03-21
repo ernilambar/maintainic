@@ -1,6 +1,6 @@
 {
 	"name": "maintainic",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Maintenance plugin.",
 	"author": "Nilambar Sharma",
 	"license": "GPL-2.0-or-later",
@@ -23,7 +23,7 @@
 		"files": [
 			"**/*",
 			"!*.js",
-			"!easy-replace-in-files.json",
+			"!easy-replace.json",
 			"!package.json",
 			"!*.lock",
 			"!*.md",
@@ -33,9 +33,9 @@
 		]
 	},
 	"devDependencies": {
-		"easy-replace-in-files": "^1.0.3",
-		"packtor": "^1.0.2",
-		"rimraf": "^6.0.1"
+		"easy-replace-in-files": "^2.0.0",
+		"packtor": "^1.0.4",
+		"rimraf": "^6.1.3"
 	},
 	"scripts": {
 		"version": "easy-replace-in-files",
