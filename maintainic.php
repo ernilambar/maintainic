@@ -3,7 +3,7 @@
  * Plugin Name: Maintainic
  * Plugin URI: https://github.com/ernilambar/maintainic/
  * Description: Maintenance plugin.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.6
  * Requires PHP: 7.4
  * Author: Nilambar Sharma
@@ -22,7 +22,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'MAINTAINIC_VERSION', '1.0.0' );
+define( 'MAINTAINIC_VERSION', '1.0.1' );
 define( 'MAINTAINIC_BASENAME', basename( __DIR__ ) );
 define( 'MAINTAINIC_BASE_FILENAME', plugin_basename( __FILE__ ) );
 define( 'MAINTAINIC_DIR', rtrim( plugin_dir_path( __FILE__ ), '/' ) );

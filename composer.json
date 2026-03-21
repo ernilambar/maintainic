@@ -21,9 +21,9 @@
 	"require-dev": {
 		"dealerdirect/phpcodesniffer-composer-installer": "^1",
 		"php-parallel-lint/php-parallel-lint": "^1",
-		"phpcompatibility/php-compatibility": "dev-develop#02835e45d27f5d0ed1642d5c8a5e8bfd2c7d7796",
+		"phpcompatibility/php-compatibility": "^10",
 		"slevomat/coding-standard": "^8",
-		"wp-coding-standards/wpcs": "^3.2"
+		"wp-coding-standards/wpcs": "^3.3"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
@@ -49,7 +49,7 @@
 			"@lint-php",
 			"@phpcs"
 		],
-		"lint-php": "@php ./vendor/bin/parallel-lint --colors --exclude .git --exclude vendor --exclude node_modules --exclude deploy .",
+		"lint-php": "@php ./vendor/bin/parallel-lint -p php --colors --exclude .git --exclude vendor --exclude node_modules --exclude deploy .",
 		"phpcs": "@php ./vendor/bin/phpcs --report-full --report-summary"
 	}
 }
