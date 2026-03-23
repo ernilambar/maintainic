@@ -2,6 +2,7 @@
 	"name": "ernilambar/maintainic",
 	"description": "Maintenance plugin.",
 	"license": "GPL-2.0-or-later",
+	"type": "wordpress-plugin",
 	"keywords": [
 		"wordpress",
 		"wordpress-plugin"
