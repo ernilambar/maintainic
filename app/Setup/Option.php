@@ -9,6 +9,8 @@ declare(strict_types=1);
 
 namespace Maintainic\Setup;
 
+use Nilambar\Optiz\Manager;
+
 /**
  * Option class.
  *
@@ -25,63 +27,6 @@ class Option {
 	 * @return mixed Option value.
 	 */
 	public static function get( string $key ) {
-		if ( empty( $key ) ) {
-			return;
-		}
-
-		$default_options = self::get_defaults();
-
-		$current_options = (array) get_option( 'maintainic_options' );
-		$current_options = wp_parse_args( $current_options, $default_options );
-
-		$value = null;
-
-		if ( array_key_exists( $key, $current_options ) ) {
-			$value = $current_options[ $key ];
-		}
-
-		return $value;
-	}
-
-	/**
-	 * Return default options.
-	 *
-	 * @since 1.0.0
-	 *
-	 * @return array Default options.
-	 */
-	public static function get_defaults(): array {
-		return apply_filters(
-			'maintainic_option_defaults',
-			[
-				'main_switch'      => true,
-				'site_title'       => esc_html__( 'Maintenance Mode', 'maintainic' ),
-				'page_headline'    => esc_html__( 'Website Under Maintenance', 'maintainic' ),
-				'page_content'     => esc_html__( 'We are currently updating our website. Please visit us again shortly.', 'maintainic' ),
-				'background_image' => '',
-				'background_color' => '#f5f5f5',
-				'text_color'       => '#333333',
-			]
-		);
-	}
-
-	/**
-	 * Return default value of given key.
-	 *
-	 * @since 1.0.0
-	 *
-	 * @param string $key Option key.
-	 * @return mixed Default option value.
-	 */
-	public static function defaults( string $key ) {
-		$value = null;
-
-		$defaults = self::get_defaults();
-
-		if ( ! empty( $key ) && array_key_exists( $key, $defaults ) ) {
-			$value = $defaults[ $key ];
-		}
-
-		return $value;
+		return Manager::instance( 'maintainic' )->get( $key );
 	}
 }

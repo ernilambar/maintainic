@@ -31,7 +31,7 @@ define( 'MAINTAINIC_URL', rtrim( plugin_dir_url( __FILE__ ), '/' ) );
 // Include autoload.
 if ( file_exists( MAINTAINIC_DIR . '/vendor/autoload.php' ) ) {
 	require_once MAINTAINIC_DIR . '/vendor/autoload.php';
-	require_once MAINTAINIC_DIR . '/vendor/ernilambar/optioner/optioner.php';
+	require_once MAINTAINIC_DIR . '/vendor/ernilambar/optiz/init.php';
 }
 
 new Bootstrap();
