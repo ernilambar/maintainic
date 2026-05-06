@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0d047ec5d3bd526b399b2f149749a62",
+    "content-hash": "b3ae8977fff0b5ac9a36dd3604e84cbe",
     "packages": [
         {
             "name": "ernilambar/optiz",
@@ -12,20 +12,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ernilambar/optiz.git",
-                "reference": "9c11727382c94fdc55d0a857d6c3b441d43aa213"
+                "reference": "b508e63ff862ce66abac4b2168a32626dcc4235a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ernilambar/optiz/zipball/9c11727382c94fdc55d0a857d6c3b441d43aa213",
-                "reference": "9c11727382c94fdc55d0a857d6c3b441d43aa213",
+                "url": "https://api.github.com/repos/ernilambar/optiz/zipball/b508e63ff862ce66abac4b2168a32626dcc4235a",
+                "reference": "b508e63ff862ce66abac4b2168a32626dcc4235a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4"
+                "php": ">=8.0"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^1",
+                "ernilambar/coding-standard": "^1.0",
+                "php-parallel-lint/php-parallel-lint": "^1.4",
                 "phpcompatibility/php-compatibility": "^10@alpha",
+                "phpunit/phpunit": "^9.6 || ^10 || ^11",
                 "slevomat/coding-standard": "^8.22",
                 "squizlabs/php_codesniffer": "^3.13",
                 "wp-coding-standards/wpcs": "^3.3"
@@ -62,22 +65,22 @@
                 "issues": "https://github.com/ernilambar/optiz/issues",
                 "source": "https://github.com/ernilambar/optiz"
             },
-            "time": "2026-05-05T13:04:07+00:00"
+            "time": "2026-05-06T13:07:06+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/composer-installer.git",
-                "reference": "845eb62303d2ca9b289ef216356568ccc075ffd1"
+                "reference": "963f0c67bffde0eac41b56be71ac0e8ba132f0bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/composer-installer/zipball/845eb62303d2ca9b289ef216356568ccc075ffd1",
-                "reference": "845eb62303d2ca9b289ef216356568ccc075ffd1",
+                "url": "https://api.github.com/repos/PHPCSStandards/composer-installer/zipball/963f0c67bffde0eac41b56be71ac0e8ba132f0bd",
+                "reference": "963f0c67bffde0eac41b56be71ac0e8ba132f0bd",
                 "shasum": ""
             },
             "require": {
@@ -160,7 +163,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-11-11T04:32:07+00:00"
+            "time": "2026-05-06T08:26:05+00:00"
         },
         {
             "name": "php-parallel-lint/php-parallel-lint",
@@ -752,11 +755,11 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.4"
+        "php": ">=8.0"
     },
     "platform-dev": {},
     "platform-overrides": {
-        "php": "7.4"
+        "php": "8.0"
     },
     "plugin-api-version": "2.9.0"
 }
