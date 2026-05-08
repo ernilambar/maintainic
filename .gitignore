@@ -24,6 +24,9 @@ tmp/
 # Environment files
 .env
 
+# AI files
+.claude/
+
 wp-cli.local.yml
 yarn-error.log
 npm-debug.log
