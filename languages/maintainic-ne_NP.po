@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-12T05:46:13+00:00\n"
+"PO-Revision-Date: 2026-06-12T06:10:29+00:00\n"
 "Language: ne_NP\n"
 "X-Generator: WP-CLI 2.13.0-alpha\n"
 "X-Domain: maintainic\n"
@@ -18,69 +18,69 @@ msgstr ""
 #: app/Options/Options.php:41
 #: app/Options/Options.php:42
 msgid "Maintainic"
-msgstr ""
+msgstr "Maintainic"
 
 #. Plugin URI of the plugin
 #: maintainic.php:4
 msgid "https://github.com/ernilambar/maintainic/"
-msgstr ""
+msgstr "https://github.com/ernilambar/maintainic/"
 
 #. Description of the plugin
 #: maintainic.php:5
 msgid "Simple maintenance plugin."
-msgstr ""
+msgstr "साधारण मर्मत प्लगिन।"
 
 #. Author of the plugin
 #: maintainic.php:9
 msgid "Nilambar Sharma"
-msgstr ""
+msgstr "निलाम्वर शर्मा"
 
 #. Author URI of the plugin
 #: maintainic.php:10
 msgid "https://www.nilambar.net/"
-msgstr ""
+msgstr "https://www.nilambar.net/"
 
 #: app/Core/Bootstrap.php:53
 #: app/Options/Options.php:50
 msgid "Settings"
-msgstr ""
+msgstr "सेटिङहरू"
 
 #: app/Options/Options.php:55
 msgid "Main Switch"
-msgstr ""
+msgstr "मुख्य स्विच"
 
 #: app/Options/Options.php:61
 msgid "Site Title"
-msgstr ""
+msgstr "साइट शीर्षक"
 
 #: app/Options/Options.php:62
 msgid "Maintenance Mode"
-msgstr ""
+msgstr "मर्मत मोड"
 
 #: app/Options/Options.php:67
 msgid "Headline"
-msgstr ""
+msgstr "शीर्षक"
 
 #: app/Options/Options.php:68
 msgid "Website Under Maintenance"
-msgstr ""
+msgstr "वेबसाइट मर्मतमा छ"
 
 #: app/Options/Options.php:73
 msgid "Description"
-msgstr ""
+msgstr "विवरण"
 
 #: app/Options/Options.php:74
 msgid "We are currently updating our website. Please visit us again shortly."
-msgstr ""
+msgstr "हाम्रो वेबसाइट हाल अद्यावधिक हुँदैछ। कृपया केही समयपछि फेरि भ्रमण गर्नुहोस्।"
 
 #: app/Options/Options.php:79
 msgid "Background Image"
-msgstr ""
+msgstr "पृष्ठभूमि तस्बिर"
 
 #: app/Options/Options.php:85
 msgid "Background Color"
-msgstr ""
+msgstr "पृष्ठभूमि रङ्ग"
 
 #: app/Options/Options.php:91
 msgid "Text Color"
-msgstr ""
+msgstr "अक्षरको रङ्ग"
