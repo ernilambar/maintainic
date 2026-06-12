@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintainic 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/maintainic\n"
+"Last-Translator: Nilambar Sharma <nilambar@outlook.com>\n"
+"Language-Team: Nepali <ne@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-12T05:46:13+00:00\n"
+"Language: ne_NP\n"
+"X-Generator: WP-CLI 2.13.0-alpha\n"
+"X-Domain: maintainic\n"
+
+#. Plugin Name of the plugin
+#: maintainic.php:3
+#: app/Options/Options.php:41
+#: app/Options/Options.php:42
+msgid "Maintainic"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: maintainic.php:4
+msgid "https://github.com/ernilambar/maintainic/"
+msgstr ""
+
+#. Description of the plugin
+#: maintainic.php:5
+msgid "Simple maintenance plugin."
+msgstr ""
+
+#. Author of the plugin
+#: maintainic.php:9
+msgid "Nilambar Sharma"
+msgstr ""
+
+#. Author URI of the plugin
+#: maintainic.php:10
+msgid "https://www.nilambar.net/"
+msgstr ""
+
+#: app/Core/Bootstrap.php:53
+#: app/Options/Options.php:50
+msgid "Settings"
+msgstr ""
+
+#: app/Options/Options.php:55
+msgid "Main Switch"
+msgstr ""
+
+#: app/Options/Options.php:61
+msgid "Site Title"
+msgstr ""
+
+#: app/Options/Options.php:62
+msgid "Maintenance Mode"
+msgstr ""
+
+#: app/Options/Options.php:67
+msgid "Headline"
+msgstr ""
+
+#: app/Options/Options.php:68
+msgid "Website Under Maintenance"
+msgstr ""
+
+#: app/Options/Options.php:73
+msgid "Description"
+msgstr ""
+
+#: app/Options/Options.php:74
+msgid "We are currently updating our website. Please visit us again shortly."
+msgstr ""
+
+#: app/Options/Options.php:79
+msgid "Background Image"
+msgstr ""
+
+#: app/Options/Options.php:85
+msgid "Background Color"
+msgstr ""
+
+#: app/Options/Options.php:91
+msgid "Text Color"
+msgstr ""

@@ -1,7 +1,7 @@
 {
 	"name": "maintainic",
 	"version": "1.0.1",
-	"description": "Maintenance plugin.",
+	"description": "Simple maintenance plugin.",
 	"author": "Nilambar Sharma",
 	"license": "GPL-2.0-or-later",
 	"main_file": "maintainic.php",
