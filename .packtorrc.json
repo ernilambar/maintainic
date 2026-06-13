@@ -1,0 +1,9 @@
+{
+	"files": [
+		"app/**/*",
+		"languages/**/*",
+		"templates/**/*",
+		"vendor/**/*",
+		"maintainic.php"
+	]
+}
