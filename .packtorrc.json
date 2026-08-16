@@ -4,6 +4,7 @@
 		"languages/**/*",
 		"templates/**/*",
 		"vendor/**/*",
-		"maintainic.php"
+		"maintainic.php",
+		"!**/*.bak"
 	]
 }
