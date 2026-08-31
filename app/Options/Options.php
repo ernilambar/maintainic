@@ -37,59 +37,62 @@ class Options {
 			'maintainic',
 			[
 				'option_key' => 'maintainic_options',
-				'page'       => [
-					'title'       => esc_html__( 'Maintainic', 'maintainic' ),
-					'menu_title'  => esc_html__( 'Maintainic', 'maintainic' ),
-					'capability'  => 'manage_options',
-					'menu_slug'   => 'maintainic',
-					'parent_slug' => 'options-general.php',
-				],
-				'tabs'       => [
+				'pages'      => [
 					[
-						'id'     => 'maintainic_settings',
-						'label'  => esc_html__( 'Settings', 'maintainic' ),
-						'fields' => [
+						'id'          => 'general',
+						'title'       => esc_html__( 'Maintainic', 'maintainic' ),
+						'menu_title'  => esc_html__( 'Maintainic', 'maintainic' ),
+						'capability'  => 'manage_options',
+						'menu_slug'   => 'maintainic',
+						'parent_slug' => 'options-general.php',
+						'tabs'        => [
 							[
-								'id'      => 'main_switch',
-								'type'    => 'toggle',
-								'label'   => esc_html__( 'Main Switch', 'maintainic' ),
-								'default' => true,
-							],
-							[
-								'id'      => 'site_title',
-								'type'    => 'text',
-								'label'   => esc_html__( 'Site Title', 'maintainic' ),
-								'default' => esc_html__( 'Maintenance Mode', 'maintainic' ),
-							],
-							[
-								'id'      => 'page_headline',
-								'type'    => 'text',
-								'label'   => esc_html__( 'Headline', 'maintainic' ),
-								'default' => esc_html__( 'Website Under Maintenance', 'maintainic' ),
-							],
-							[
-								'id'      => 'page_content',
-								'type'    => 'textarea',
-								'label'   => esc_html__( 'Description', 'maintainic' ),
-								'default' => esc_html__( 'We are currently updating our website. Please visit us again shortly.', 'maintainic' ),
-							],
-							[
-								'id'      => 'background_image',
-								'type'    => 'image',
-								'label'   => esc_html__( 'Background Image', 'maintainic' ),
-								'default' => '',
-							],
-							[
-								'id'      => 'background_color',
-								'type'    => 'color',
-								'label'   => esc_html__( 'Background Color', 'maintainic' ),
-								'default' => '#f5f5f5',
-							],
-							[
-								'id'      => 'text_color',
-								'type'    => 'color',
-								'label'   => esc_html__( 'Text Color', 'maintainic' ),
-								'default' => '#333333',
+								'id'     => 'maintainic_settings',
+								'label'  => esc_html__( 'Settings', 'maintainic' ),
+								'fields' => [
+									[
+										'id'      => 'main_switch',
+										'type'    => 'toggle',
+										'label'   => esc_html__( 'Main Switch', 'maintainic' ),
+										'default' => true,
+									],
+									[
+										'id'      => 'site_title',
+										'type'    => 'text',
+										'label'   => esc_html__( 'Site Title', 'maintainic' ),
+										'default' => esc_html__( 'Maintenance Mode', 'maintainic' ),
+									],
+									[
+										'id'      => 'page_headline',
+										'type'    => 'text',
+										'label'   => esc_html__( 'Headline', 'maintainic' ),
+										'default' => esc_html__( 'Website Under Maintenance', 'maintainic' ),
+									],
+									[
+										'id'      => 'page_content',
+										'type'    => 'textarea',
+										'label'   => esc_html__( 'Description', 'maintainic' ),
+										'default' => esc_html__( 'We are currently updating our website. Please visit us again shortly.', 'maintainic' ),
+									],
+									[
+										'id'      => 'background_image',
+										'type'    => 'image',
+										'label'   => esc_html__( 'Background Image', 'maintainic' ),
+										'default' => '',
+									],
+									[
+										'id'      => 'background_color',
+										'type'    => 'color',
+										'label'   => esc_html__( 'Background Color', 'maintainic' ),
+										'default' => '#f5f5f5',
+									],
+									[
+										'id'      => 'text_color',
+										'type'    => 'color',
+										'label'   => esc_html__( 'Text Color', 'maintainic' ),
+										'default' => '#333333',
+									],
+								],
 							],
 						],
 					],

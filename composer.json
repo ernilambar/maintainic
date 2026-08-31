@@ -28,6 +28,12 @@
 		"wp-cli/wp-cli": "^3.0",
 		"wp-coding-standards/wpcs": "^3.4"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/ernilambar/optiz"
+		}
+	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"autoload": {

@@ -10,6 +10,7 @@ declare(strict_types=1);
 namespace Maintainic\Core;
 
 use Maintainic\Options\Options;
+use Nilambar\Optiz\Manager;
 
 /**
  * Bootstrap class.
@@ -24,19 +25,10 @@ class Bootstrap {
 	 * @since 1.0.0
 	 */
 	public function __construct() {
-		add_action( 'init', [ $this, 'init_hooks' ] );
 		add_filter( 'plugin_action_links_' . MAINTAINIC_BASE_FILENAME, [ $this, 'customize_action_links' ] );
 
 		new Options();
 		new Maintenance();
-	}
-
-	/**
-	 * Init hooks.
-	 *
-	 * @since 1.0.0
-	 */
-	public function init_hooks() {
 	}
 
 	/**
@@ -48,7 +40,7 @@ class Bootstrap {
 	 * @return array Modified action links.
 	 */
 	public function customize_action_links( $actions ) {
-		$url = add_query_arg( [ 'page' => 'maintainic' ], admin_url( 'options-general.php' ) );
+		$url = Manager::instance( 'maintainic' )->get_page_url( 'general' );
 
 		$actions = [ 'settings' => '<a href="' . esc_url( $url ) . '">' . esc_html__( 'Settings', 'maintainic' ) . '</a>' ] + $actions;
 
