@@ -4,7 +4,9 @@
 		"languages/**/*",
 		"templates/**/*",
 		"vendor/**/*",
+		"composer.json",
 		"maintainic.php",
+		"readme.txt",
 		"!**/*.bak"
 	]
 }

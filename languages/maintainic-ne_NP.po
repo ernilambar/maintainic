@@ -8,22 +8,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-08-16T16:00:15+00:00\n"
+"PO-Revision-Date: 2026-09-09T10:06:12+00:00\n"
 "Language: ne_NP\n"
 "X-Generator: WP-CLI 2.13.0-alpha\n"
 "X-Domain: maintainic\n"
 
 #. Plugin Name of the plugin
 #: maintainic.php:3
-#: app/Options/Options.php:41
-#: app/Options/Options.php:42
+#: app/Options/Options.php:43
+#: app/Options/Options.php:44
 msgid "Maintainic"
 msgstr "Maintainic"
 
 #. Plugin URI of the plugin
 #: maintainic.php:4
-msgid "https://github.com/ernilambar/maintainic/"
-msgstr "https://github.com/ernilambar/maintainic/"
+msgid "https://github.com/ernilambar/maintainic"
+msgstr "https://github.com/ernilambar/maintainic"
 
 #. Description of the plugin
 #: maintainic.php:5
@@ -37,50 +37,50 @@ msgstr "निलाम्वर शर्मा"
 
 #. Author URI of the plugin
 #: maintainic.php:10
-msgid "https://www.nilambar.net/"
-msgstr "https://www.nilambar.net/"
+msgid "https://nilambar.net/"
+msgstr "https://nilambar.net/"
 
-#: app/Core/Bootstrap.php:53
-#: app/Options/Options.php:50
+#: app/Core/Bootstrap.php:46
+#: app/Options/Options.php:51
 msgid "Settings"
 msgstr "सेटिङहरू"
 
-#: app/Options/Options.php:55
+#: app/Options/Options.php:56
 msgid "Main Switch"
 msgstr "मुख्य स्विच"
 
-#: app/Options/Options.php:61
+#: app/Options/Options.php:62
 msgid "Site Title"
 msgstr "साइट शीर्षक"
 
-#: app/Options/Options.php:62
+#: app/Options/Options.php:63
 msgid "Maintenance Mode"
 msgstr "मर्मत मोड"
 
-#: app/Options/Options.php:67
+#: app/Options/Options.php:68
 msgid "Headline"
 msgstr "शीर्षक"
 
-#: app/Options/Options.php:68
+#: app/Options/Options.php:69
 msgid "Website Under Maintenance"
 msgstr "वेबसाइट मर्मतमा छ"
 
-#: app/Options/Options.php:73
+#: app/Options/Options.php:74
 msgid "Description"
 msgstr "विवरण"
 
-#: app/Options/Options.php:74
+#: app/Options/Options.php:75
 msgid "We are currently updating our website. Please visit us again shortly."
-msgstr "हाम्रो वेबसाइट हाल अद्यावधिक हुँदैछ। कृपया केही समयपछि फेरि भ्रमण गर्नुहोस्।"
+msgstr "हाम्रो वेबसाइट हाल अपडेट हुँदैछ। कृपया केही समयपछि फेरि आउनुहोस्।"
 
-#: app/Options/Options.php:79
+#: app/Options/Options.php:80
 msgid "Background Image"
 msgstr "पृष्ठभूमि तस्बिर"
 
-#: app/Options/Options.php:85
+#: app/Options/Options.php:86
 msgid "Background Color"
 msgstr "पृष्ठभूमि रङ्ग"
 
-#: app/Options/Options.php:91
+#: app/Options/Options.php:92
 msgid "Text Color"
 msgstr "अक्षरको रङ्ग"
