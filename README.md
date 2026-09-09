@@ -17,9 +17,10 @@ Simple maintenance mode plugin for WordPress.
 
 ## Installation
 
-1. Upload the plugin folder to `/wp-content/plugins/`
-2. Activate the plugin
-3. Go to **Settings > Maintainic** to configure
+1. Download the latest release zip from [GitHub Releases](https://github.com/ernilambar/maintainic/releases/latest/download/maintainic.zip)
+2. Upload the plugin folder to `/wp-content/plugins/`
+3. Activate the plugin
+4. Go to **Settings > Maintainic** to configure
 
 ## Usage
 
@@ -27,4 +28,4 @@ Navigate to **Settings > Maintainic** and enable maintenance mode. Customize the
 
 ## License
 
-GPLv2 or later
+[GPLv2 or later](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)

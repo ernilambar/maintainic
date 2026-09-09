@@ -1,6 +1,3 @@
-# WordPress Coding Standards
-# https://developer.wordpress.org/coding-standards/wordpress-coding-standards/
-
 root = true
 
 [*]
@@ -21,16 +18,6 @@ indent_size = 2
 trim_trailing_whitespace = false
 
 [*.json]
-insert_final_newline = false
-indent_style = space
-indent_size = 2
-
-[.*rc]
-insert_final_newline = false
-indent_style = space
-indent_size = 2
-
-[*.feature]
 insert_final_newline = false
 indent_style = space
 indent_size = 2
