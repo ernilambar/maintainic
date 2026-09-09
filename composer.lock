@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf993b843b645ff80af34ea8031be464",
+    "content-hash": "1699c0a8e52a1652de2cf3192c027c28",
     "packages": [
         {
             "name": "ernilambar/gitvise",
@@ -36,24 +36,14 @@
                     "Nilambar\\Gitvise\\": "src/"
                 }
             },
-            "scripts": {
-                "format": [
-                    "@php ./vendor/bin/phpcbf --report-full --report-summary ."
-                ],
-                "lint": [
-                    "@php ./vendor/bin/phpcs --report-full --report-summary ."
-                ],
-                "test": [
-                    "phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Update WordPress plugins from GitHub releases.",
             "support": {
-                "source": "https://github.com/ernilambar/gitvise/tree/1.0.6",
-                "issues": "https://github.com/ernilambar/gitvise/issues"
+                "issues": "https://github.com/ernilambar/gitvise/issues",
+                "source": "https://github.com/ernilambar/gitvise/tree/1.0.6"
             },
             "time": "2026-08-10T05:06:32+00:00"
         },
