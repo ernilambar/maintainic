@@ -4,8 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "291ce1afc0b9382b31029b1bacd20bf5",
+    "content-hash": "bf993b843b645ff80af34ea8031be464",
     "packages": [
+        {
+            "name": "ernilambar/gitvise",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ernilambar/gitvise.git",
+                "reference": "378ad9d96a4bb1624727bfac1ae8325a9c1cf85c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ernilambar/gitvise/zipball/378ad9d96a4bb1624727bfac1ae8325a9c1cf85c",
+                "reference": "378ad9d96a4bb1624727bfac1ae8325a9c1cf85c",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "^1.8",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "ernilambar/coding-standard": "^2.0",
+                "phpunit/phpunit": "^9.0 || ^10.0",
+                "squizlabs/php_codesniffer": "^3.0",
+                "wp-coding-standards/wpcs": "^3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nilambar\\Gitvise\\": "src/"
+                }
+            },
+            "scripts": {
+                "format": [
+                    "@php ./vendor/bin/phpcbf --report-full --report-summary ."
+                ],
+                "lint": [
+                    "@php ./vendor/bin/phpcs --report-full --report-summary ."
+                ],
+                "test": [
+                    "phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Update WordPress plugins from GitHub releases.",
+            "support": {
+                "source": "https://github.com/ernilambar/gitvise/tree/1.0.6",
+                "issues": "https://github.com/ernilambar/gitvise/issues"
+            },
+            "time": "2026-08-10T05:06:32+00:00"
+        },
         {
             "name": "ernilambar/optiz",
             "version": "1.0.1",
@@ -91,6 +142,62 @@
                 "source": "https://github.com/ernilambar/optiz"
             },
             "time": "2026-09-04T06:09:03+00:00"
+        },
+        {
+            "name": "erusev/parsedown",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "96baaad00f71ba04d76e45b4620f54d3beabd6f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/96baaad00f71ba04d76e45b4620f54d3beabd6f7",
+                "reference": "96baaad00f71ba04d76e45b4620f54d3beabd6f7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5|^8.5|^9.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/erusev/parsedown/issues",
+                "source": "https://github.com/erusev/parsedown/tree/1.8.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/erusev",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-02-16T11:41:01+00:00"
         }
     ],
     "packages-dev": [
@@ -247,6 +354,58 @@
                 "source": "https://github.com/EFTEC/BladeOne/tree/3.52"
             },
             "time": "2021-04-17T13:49:01+00:00"
+        },
+        {
+            "name": "ernilambar/coding-standard",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ernilambar/coding-standard.git",
+                "reference": "6ea4a50eedd94ced092a96b543311e1bf76a9910"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ernilambar/coding-standard/zipball/6ea4a50eedd94ced092a96b543311e1bf76a9910",
+                "reference": "6ea4a50eedd94ced092a96b543311e1bf76a9910",
+                "shasum": ""
+            },
+            "require": {
+                "ext-libxml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlreader": "*",
+                "php": ">=7.4",
+                "squizlabs/php_codesniffer": "^3.13 || ^4.0"
+            },
+            "require-dev": {
+                "php-parallel-lint/php-console-highlighter": "^1.0.0",
+                "php-parallel-lint/php-parallel-lint": "^1.3.2",
+                "phpcompatibility/php-compatibility": "^10",
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+                "slevomat/coding-standard": "^8"
+            },
+            "type": "phpcodesniffer-standard",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nilambar Sharma",
+                    "email": "nilambar@outlook.com",
+                    "homepage": "https://nilambar.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP_CodeSniffer standard for PHP projects.",
+            "keywords": [
+                "phpcs",
+                "standard"
+            ],
+            "support": {
+                "issues": "https://github.com/ernilambar/coding-standard/issues",
+                "source": "https://github.com/ernilambar/coding-standard/tree/2.0.1"
+            },
+            "time": "2026-08-13T12:06:25+00:00"
         },
         {
             "name": "gettext/gettext",

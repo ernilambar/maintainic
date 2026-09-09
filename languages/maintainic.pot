@@ -2,7 +2,7 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Maintainic 1.0.1\n"
+"Project-Id-Version: Maintainic 1.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/maintainic\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,14 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: maintainic.php:3
-#: app/Options/Options.php:41
-#: app/Options/Options.php:42
+#: app/Options/Options.php:43
+#: app/Options/Options.php:44
 msgid "Maintainic"
 msgstr ""
 
 #. Plugin URI of the plugin
 #: maintainic.php:4
-msgid "https://github.com/ernilambar/maintainic/"
+msgid "https://github.com/ernilambar/maintainic"
 msgstr ""
 
 #. Description of the plugin
@@ -38,50 +38,50 @@ msgstr ""
 
 #. Author URI of the plugin
 #: maintainic.php:10
-msgid "https://www.nilambar.net/"
+msgid "https://nilambar.net/"
 msgstr ""
 
-#: app/Core/Bootstrap.php:53
-#: app/Options/Options.php:50
+#: app/Core/Bootstrap.php:46
+#: app/Options/Options.php:51
 msgid "Settings"
 msgstr ""
 
-#: app/Options/Options.php:55
+#: app/Options/Options.php:56
 msgid "Main Switch"
 msgstr ""
 
-#: app/Options/Options.php:61
+#: app/Options/Options.php:62
 msgid "Site Title"
 msgstr ""
 
-#: app/Options/Options.php:62
+#: app/Options/Options.php:63
 msgid "Maintenance Mode"
 msgstr ""
 
-#: app/Options/Options.php:67
+#: app/Options/Options.php:68
 msgid "Headline"
 msgstr ""
 
-#: app/Options/Options.php:68
+#: app/Options/Options.php:69
 msgid "Website Under Maintenance"
 msgstr ""
 
-#: app/Options/Options.php:73
+#: app/Options/Options.php:74
 msgid "Description"
 msgstr ""
 
-#: app/Options/Options.php:74
+#: app/Options/Options.php:75
 msgid "We are currently updating our website. Please visit us again shortly."
 msgstr ""
 
-#: app/Options/Options.php:79
+#: app/Options/Options.php:80
 msgid "Background Image"
 msgstr ""
 
-#: app/Options/Options.php:85
+#: app/Options/Options.php:86
 msgid "Background Color"
 msgstr ""
 
-#: app/Options/Options.php:91
+#: app/Options/Options.php:92
 msgid "Text Color"
 msgstr ""
