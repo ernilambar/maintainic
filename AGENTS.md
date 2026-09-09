@@ -11,7 +11,7 @@ pnpm install        # JS tooling (packtor, easy-replace-in-files)
 composer install    # PHP dependencies + Composer scripts
 ```
 
-Requires PHP >= 8.0 for dev; plugin code must remain compatible with PHP 7.4.
+Requires PHP >= 8.0
 
 ## Commands
 
